@@ -125,9 +125,9 @@ Publish the website in the given URL.
 
 ```
 ## OUTPUT:
-![](output.png)
+![](out.png)
 ## HTML Validator:
-![](Screenshot%20(80).png)
+![](valid.png)
 
 ## Result:
 Thus,the program for designing a simple calculator using Javascript is executed successfully.
