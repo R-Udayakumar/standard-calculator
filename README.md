@@ -83,43 +83,43 @@ Publish the website in the given URL.
 		</style>
 	</head>
 	<body>
-		<form name="form1">
-			<table align="center" >
-				<tr><td colspan="4" style="text-align:center">SIMPLE CALCULATOR</td></tr>
-				<tr><td colspan="4">
-					<input type="text" name="result" placeholder="0" disabled style="text-align:right"></input>
-					</td>
-				</tr>
-				<tr>
-					<td><button type="button" onclick="number(value)" value="1">1</button></td>
-					<td><button type="button" onclick="number(value)" value="2">2</button></td>
-					<td><button type="button" onclick="number(value)" value="3">3</button></td>
-					<td><button type="button" onclick="number(value)" value="+">+</button></td>
-				</tr>
-				<tr>
-					<td><button type="button" onclick="number(value)" value="4">4</button></td>
-					<td><button type="button" onclick="number(value)" value="5">5</button></td>
-					<td><button type="button" onclick="number(value)" value="6">6</button></td>
-					<td><button type="button" onclick="number(value)" value="-">-</button></td>
-				</tr>
-				<tr>
-					<td><button type="button" onclick="number(value)" value="7">7</button></td>
-					<td><button type="button" onclick="number(value)" value="8">8</button></td>
-					<td><button type="button" onclick="number(value)" value="9">9</button></td>
-					<td><button type="button" onclick="number(value)" value="/">/</button></td>
-				</tr>
-				<tr>
-					<td><button type="button" onclick="number(value)" value="."><strong>.</strong></button></td>
-					<td><button type="button" onclick="number(value)" value="0">0</button></td>
-					<td><button type="button" onclick="number(value)" value="*">*</button></td>
-					<td><button type="button" onclick="number(value)" value="%">%</button></td>
-				</tr>
-				<tr>
-					<td colspan="3"><button type="button" onclick="cle(value)" value="C">C</button></td>
-					<td colspan="3"><button type="button" onclick="evalua()" value='='>= </button></td>
-				</tr>
-			</table>
-		</form>
+	<form name="form1">
+	<table align="center" >
+		<tr><td colspan="4" style="text-align:center">SIMPLE CALCULATOR</td></tr>
+		<tr><td colspan="4">
+		<input type="text" name="result" placeholder="0" disabled style="text-align:right"></input>
+		</td>
+		</tr>
+		<tr>
+		<td><button type="button" onclick="number(value)" value="1">1</button></td>
+		<td><button type="button" onclick="number(value)" value="2">2</button></td>
+		<td><button type="button" onclick="number(value)" value="3">3</button></td>
+		<td><button type="button" onclick="number(value)" value="+">+</button></td>
+		</tr>
+		<tr>
+		<td><button type="button" onclick="number(value)" value="4">4</button></td>
+		<td><button type="button" onclick="number(value)" value="5">5</button></td>
+		<td><button type="button" onclick="number(value)" value="6">6</button></td>
+		<td><button type="button" onclick="number(value)" value="-">-</button></td>
+		</tr>
+		<tr>
+		<td><button type="button" onclick="number(value)" value="7">7</button></td>
+		<td><button type="button" onclick="number(value)" value="8">8</button></td>
+		<td><button type="button" onclick="number(value)" value="9">9</button></td>
+		<td><button type="button" onclick="number(value)" value="/">/</button></td>
+		</tr>
+		<tr>
+		<td><button type="button" onclick="number(value)" value="."><strong>.</strong></button></td>
+		<td><button type="button" onclick="number(value)" value="0">0</button></td>
+		<td><button type="button" onclick="number(value)" value="*">*</button></td>
+		<td><button type="button" onclick="number(value)" value="%">%</button></td>
+		</tr>
+		<tr>
+		<td colspan="3"><button type="button" onclick="cle(value)" value="C">C</button></td>
+		<td colspan="3"><button type="button" onclick="evalua()" value='='>= </button></td>
+		</tr>
+	</table>
+	</form>
 	</body>
 </html>
 
